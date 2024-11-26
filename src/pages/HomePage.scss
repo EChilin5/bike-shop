@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+.home-hero{
+    width: 100%;
+    height: 100vh;
+    //position: absolute;
+    background-color: grey;
+    position: relative;
+
+    &-image{
+        img{
+            width: 100%;
+            height: 100vh;
+        }
+    }
+
+    &-content{
+        position: absolute;
+        top: 40%;
+        left: 5%;
+        color: white;
+
+        &-title{
+            font-family: "Manrope", sans-serif;
+            font-size: 96px;
+        }
+        &-description{
+            font-family: "Manrope", sans-serif;
+            font-size: 24px;
+            text-align: left;
+            width:600px;
+        }
+    }
+}
+
+.home-about{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #F1BB6A;
+    gap: 20px;
+
+    &-title{
+        text-align: center;
+        font-size: 128px;
+        font-family: "Manrope", sans-serif;
+
+    }
+
+    &-desc{
+        font-family: "Manrope", sans-serif;
+        margin-left: 10%;
+        margin-right: 10%;
+        text-align: center;
+        font-size: 40px;   
+    }
+}
+
+.home-services{
+    width: 100%;
+    // height: 100vh;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+     padding: 140px 0px;
+
+    &-title{
+        color: white;
+        font-family: "Manrope", sans-serif;
+        text-align: center;
+        font-size: 96px;
+    }
+
+    &-card{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        gap:20px;
+    }
+
+}
+
+.home-testimony{
+    width: 100%;
+    height: 80vh;
+    position: relative;
+
+    &-hero{
+        img{
+            width: 100%;
+            height:80vh
+        }
+    }
+
+    &-cover{
+        position: absolute;
+        top: 10%;
+        left:25%;
+        color: white;
+        text-align: center;
+        gap:20px;
+
+        .home-testimony-title{
+            text-align: center;
+            margin-bottom: 40px;
+            font-size: 110px;
+            color: white;
+        }
+        .home-testimony-desc{
+            text-align: center;
+            width: 650px;
+            font-size: 24px;
+            border: 1px solid #F1BB6A;
+            padding:20px;
+            color:white;
+        }
+    }
+}
+
+.home-why-section{
+    text-align: center;
+    background-color: black;
+    padding: 30px;
+
+    h3{
+        color: white;
+    }
+
+    h5{color: white;}
+
+    .home-why-section-items{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+}
