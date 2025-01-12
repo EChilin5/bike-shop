@@ -1,0 +1,25 @@
+.service-card-plan{
+    padding:20px;
+   &-title{
+    font-size: 40px;
+    color:#F1BB6A;
+    margin-bottom: 20px;
+   }
+
+   &-price{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    font-size: 30px;
+        &-color{
+            color: #E26B6B;
+        }
+   }
+
+
+   &-description{
+    font-size: 20px;
+    line-height: 35px;
+   }
+}

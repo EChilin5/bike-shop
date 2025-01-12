@@ -1,0 +1,32 @@
+.footer{
+    background-color: #F1BB6A;
+    padding: 30px;
+    color:#2E343F;
+    justify-content: space-around;
+
+    &-header{
+        font-size: 30px;
+        padding-bottom: 30px;
+    }
+
+    &-grid{
+        display: flex;
+        flex-direction: row;
+        line-height: 30px;
+
+        &-right{
+            width: 400px;
+            line-height: 20px;
+        }
+
+        &-mid{
+            width: 400px;
+            line-height: 25px;
+        }
+
+        &-left{
+            width: 400px;
+            align-items: flex-end;
+        }
+    }
+}
