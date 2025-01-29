@@ -98,6 +98,12 @@ function Navbar() {
           >
             About
           </a>
+          <a
+            href="/pets"
+            className={`navbar-link ${isActive("/pets") ? "active" : ""}`}
+          >
+            Pets
+          </a>
         </div>
 
         <div id="contact-button-navbar">
@@ -154,6 +160,12 @@ function Navbar() {
               </a>
               <a
                 className={`mobile-navbar-link ${isActive("/about") ? "active" : ""}`}
+                href="/about"
+              >
+                ABOUT
+              </a>
+              <a
+                className={`mobile-navbar-link ${isActive("/pets") ? "active" : ""}`}
                 href="/about"
               >
                 ABOUT
